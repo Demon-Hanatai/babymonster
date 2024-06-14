@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    margin-top: 30vh!important;
+    position: fixed;
+    bottom:  81%;
+   
+    z-index: 1000; 
+}
+.nav nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 60px; /* Adjust this value to match the height of your navbar */
+}
+.Playlists{
+    
+    position: relative;;
+    top: 16vh;
+    display: ruby-text;
+}
+.playlist {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.playlist h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+.BS{
+    background-color: red;
+}
+.playlist p {
+    margin-bottom: 10px;
+    color: #555;
+}

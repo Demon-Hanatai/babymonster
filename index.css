@@ -1,0 +1,36 @@
+
+
+.topnav>a,.topnav>nav>a{
+  
+    color: white;
+    text-decoration: none;
+    margin:20px 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.topnav>a#Title{
+    font-weight: 400;
+    font-size: 22px;
+    flex-grow: 1;
+    text-align: center ;
+}
+.topnav>nav{
+    
+    float: right;
+}
+.topnav{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px;
+    margin: 30px;
+    width: 90%;
+    position: fixed;
+}
+body{
+    clear: both;
+    margin: 0;
+}
