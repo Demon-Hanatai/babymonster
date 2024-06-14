@@ -25,7 +25,7 @@ function displayErrorMessage(message) {
 
 
 window.onload = function() {
-    if (window.location.pathname === '/' || window.location.pathname === '') {
+    if (window.location.pathname === '/babymonster/' || window.location.pathname === '') {
         loadContent('/Home.html');
     }
 };
