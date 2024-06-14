@@ -11,7 +11,7 @@ function loadContent(page) {
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
-            window.location.href = '/Error.html';
+            window.location.href = 'Error.html';
         });
 }
 
