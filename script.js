@@ -11,7 +11,7 @@ function loadContent(page) {
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
-            window.location.href = 'error.html';
+            window.location.href = '/error.html';
         });
 }
 
@@ -25,7 +25,7 @@ function displayErrorMessage(message) {
 
 
 window.onload = function() {
-    if (window.location.pathname === '/' || window.location.pathname === '') {
-        loadContent('/Home.html');
+    if (window.location.pathname === '/babymonster' || window.location.pathname === '') {
+        loadContent('Home.html');
     }
 };
